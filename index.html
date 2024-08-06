@@ -1,0 +1,285 @@
+<!--Nama:Muhamad Rizki Ramdani
+    Kelas:XI RPL B --> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tugas Web Muhamad Rizki Ramdani kelas XI RPL B</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/windah.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="data:image/jpeg;base64,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" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Windah Basudara</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google"><i class="bi bi-google"></i></a>
+      <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Profile</a></li>
+        <li><a href="#lainnya"><i class="bi bi- navicon"></i> lainnya</a></li>
+
+     
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="https://assets.ggwp.id/2021/06/rrq-windah-basudara-1-640x360.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>RRQ WINDAH</h2>
+        <p>I'm <span class="typed" data-typed-items="content creator,brand ambasador"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Profile</h2>
+        <p>Windah basudara memiliki channel youtube bernama @WindahBasudara yang sudah memiliki sekitar 13,8 juta subscriber dan memiliki channel youtube kedua bernama @BrandoChill&Games yang sudah 1 juta subscriber.Memiliki juga toko top up bernama @Windahtopup</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_IJ6QsSrwbYLJgonfi1MT5mMoDtP0tdDtA&s" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Amonali Windah Batubara.</h2>
+            <p class="fst-italic py-3">
+              Brando Franco Windah secara profesional dikenal sebagai Windah Basudara merupakan seorang kreator konten dan live streamer asal indonesia.Ia dikenal karena melakukan live pada permainan video di youtube.Ia juga dikenal berkat istilah"BOCIL KEMATIAN" yang digunakan untuk menyebut penggemarnya.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Lahir:</strong> <span>14 Maret 1992</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Umur:</strong> <span>32 Tahun</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Negara:</strong> <span>Indonesia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>pekerjaan:</strong> <span>kreator konten,live streamer</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>channel:</strong> <span>WindahBasudara</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Total Video/live streaming:</strong> 5,1 ribu<span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>subscriber:</strong> <span>13,8 juta</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>jumlah views:</strong> <span>3,5 miliar(18 mei 2024)</span></li>
+                </ul>
+              </div>
+            </div>
+          
+              
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-youtube"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5100" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>video</strong> <span></span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="13800000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>subscriber</strong> <span></span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Top streamer </h2>
+        <p>Ternyata windah masuk kedalam top 3 streamer di youtube pada tahun 2022 yaitu</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Top 1.IShowSpeed<span></span> <i class="val">52%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Top 2.PekoraCH</span> <i class="val">28%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Top 3.WindahBasudara</span> <i class="val">28%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Top 4.DJMaRiiO</span> <i class="val">27%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Top 5.VEGETTA777</span> <i class="val">27%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Top 6.TimTheTatman</span> <i class="val">26%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+   
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+    
+      <div class="credits">
+        
+        Designed by <a href="https://www.instagram.com/mrizki_r02?igsh=MXZycXlmZHdhYnBnNg==">Muhamad Rizki Ramdani</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
